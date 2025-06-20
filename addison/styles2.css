@@ -1,0 +1,156 @@
+/* Basic body styles */
+body {
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+}
+
+/* Header styling */
+.header-div {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(42, 42, 69, 0.85);
+  border-bottom: 2px solid #5c5ca6;
+}
+
+/* Lists container */
+.list-div {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgba(44, 44, 66, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 0 8px #444477;
+}
+
+/* Styling nested unordered lists */
+.list-div ol li ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+/* Image container */
+.image-div {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgba(44, 44, 66, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 0 8px #444477;
+  text-align: center;
+}
+
+/* Make images responsive */
+.image-div img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Video container */
+.video-div {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgba(44, 44, 66, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 0 8px #444477;
+  text-align: center;
+}
+
+/* Anchor link container */
+.anchor-div {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 10px;
+  background-color: rgba(44, 44, 66, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 0 8px #444477;
+  text-align: center;
+}
+
+/* Tableau embed container */
+.tableau-div {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgba(44, 44, 66, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 0 8px #444477;
+}
+
+/* Footer container */
+.footer-div {
+  max-width: 900px;
+  margin: 30px auto 60px auto;
+  padding: 20px;
+  background-color: rgba(42, 42, 69, 0.85);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 8px #444477;
+}
+
+/* Links styling */
+a {
+  color: #9f9fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.homebg {
+    background-image: url("../addison/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.tableauWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.tableauWrapper iframe {
+  width: 100%;
+  height: 2000px;
+  border: none;
+  border-radius: 12px;
+}
+.tableau-div {
+  margin: 30px auto;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.92);
+  border-radius: 12px;
+  max-width: 1100px; /* increased width */
+  width: 95%;         /* keeps it responsive */
+}
+.tableau-div h2 {
+  color: #444477; /* Replace with your exact purple if it's different */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link-box {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #5c007a;
+  font-weight: bold;
+  font-size: 1.2em;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.link-box:hover {
+  background-color: #f2f2f2;
+  box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
